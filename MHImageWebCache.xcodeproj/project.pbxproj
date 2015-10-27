@@ -13,8 +13,8 @@
 		6CC792F31BCE5C2700E3B60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC792F11BCE5C2700E3B60E /* Main.storyboard */; };
 		6CC792F51BCE5C2700E3B60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC792F41BCE5C2700E3B60E /* Assets.xcassets */; };
 		6CC792F81BCE5C2700E3B60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC792F61BCE5C2700E3B60E /* LaunchScreen.storyboard */; };
-		6CC793011BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC793001BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m */; settings = {ASSET_TAGS = (); }; };
-		6CC793031BCE603400E3B60E /* mm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CC793021BCE603400E3B60E /* mm.jpg */; settings = {ASSET_TAGS = (); }; };
+		6CC793011BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC793001BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m */; };
+		6CC793031BCE603400E3B60E /* mm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CC793021BCE603400E3B60E /* mm.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +44,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C82E2061BDF710700EDE6D7 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				6CC792FF1BCE5DC900E3B60E /* UIImageView+MHImageWebCache.h */,
+				6CC793001BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		6C82E2071BDF710C00EDE6D7 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				6CC793021BCE603400E3B60E /* mm.jpg */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
 		6CC792DC1BCE5C2700E3B60E = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +80,12 @@
 		6CC792E71BCE5C2700E3B60E /* MHImageWebCache */ = {
 			isa = PBXGroup;
 			children = (
+				6C82E2071BDF710C00EDE6D7 /* res */,
+				6C82E2061BDF710700EDE6D7 /* libs */,
 				6CC792EB1BCE5C2700E3B60E /* AppDelegate.h */,
 				6CC792EC1BCE5C2700E3B60E /* AppDelegate.m */,
 				6CC792EE1BCE5C2700E3B60E /* ViewController.h */,
 				6CC792EF1BCE5C2700E3B60E /* ViewController.m */,
-				6CC792FF1BCE5DC900E3B60E /* UIImageView+MHImageWebCache.h */,
-				6CC793001BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m */,
-				6CC793021BCE603400E3B60E /* mm.jpg */,
 				6CC792F11BCE5C2700E3B60E /* Main.storyboard */,
 				6CC792F41BCE5C2700E3B60E /* Assets.xcassets */,
 				6CC792F61BCE5C2700E3B60E /* LaunchScreen.storyboard */,
