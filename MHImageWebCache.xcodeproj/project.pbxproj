@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C612BF81BF469B900DCAE25 /* UIImageView+MHImageWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C612BF71BF469B900DCAE25 /* UIImageView+MHImageWebCache.m */; };
 		6CC792EA1BCE5C2700E3B60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC792E91BCE5C2700E3B60E /* main.m */; };
 		6CC792ED1BCE5C2700E3B60E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC792EC1BCE5C2700E3B60E /* AppDelegate.m */; };
 		6CC792F01BCE5C2700E3B60E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC792EF1BCE5C2700E3B60E /* ViewController.m */; };
 		6CC792F31BCE5C2700E3B60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC792F11BCE5C2700E3B60E /* Main.storyboard */; };
 		6CC792F51BCE5C2700E3B60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC792F41BCE5C2700E3B60E /* Assets.xcassets */; };
 		6CC792F81BCE5C2700E3B60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC792F61BCE5C2700E3B60E /* LaunchScreen.storyboard */; };
-		6CC793011BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC793001BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m */; };
 		6CC793031BCE603400E3B60E /* mm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CC793021BCE603400E3B60E /* mm.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C612BF61BF469B900DCAE25 /* UIImageView+MHImageWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+MHImageWebCache.h"; path = "libs/UIImageView+MHImageWebCache.h"; sourceTree = "<group>"; };
+		6C612BF71BF469B900DCAE25 /* UIImageView+MHImageWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+MHImageWebCache.m"; path = "libs/UIImageView+MHImageWebCache.m"; sourceTree = "<group>"; };
 		6CC792E51BCE5C2700E3B60E /* MHImageWebCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHImageWebCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC792E91BCE5C2700E3B60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CC792EB1BCE5C2700E3B60E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,8 +30,6 @@
 		6CC792F41BCE5C2700E3B60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CC792F71BCE5C2700E3B60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CC792F91BCE5C2700E3B60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CC792FF1BCE5DC900E3B60E /* UIImageView+MHImageWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MHImageWebCache.h"; sourceTree = "<group>"; };
-		6CC793001BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MHImageWebCache.m"; sourceTree = "<group>"; };
 		6CC793021BCE603400E3B60E /* mm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,8 +47,8 @@
 		6C82E2061BDF710700EDE6D7 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				6CC792FF1BCE5DC900E3B60E /* UIImageView+MHImageWebCache.h */,
-				6CC793001BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m */,
+				6C612BF61BF469B900DCAE25 /* UIImageView+MHImageWebCache.h */,
+				6C612BF71BF469B900DCAE25 /* UIImageView+MHImageWebCache.m */,
 			);
 			name = libs;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CC792F01BCE5C2700E3B60E /* ViewController.m in Sources */,
-				6CC793011BCE5DC900E3B60E /* UIImageView+MHImageWebCache.m in Sources */,
+				6C612BF81BF469B900DCAE25 /* UIImageView+MHImageWebCache.m in Sources */,
 				6CC792ED1BCE5C2700E3B60E /* AppDelegate.m in Sources */,
 				6CC792EA1BCE5C2700E3B60E /* main.m in Sources */,
 			);

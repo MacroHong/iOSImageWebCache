@@ -25,7 +25,7 @@
     
     UIImageView *iv = [[UIImageView alloc] initWithFrame:CGRectMake(20, 40, [[UIScreen mainScreen] bounds].size.width - 40, [[UIScreen mainScreen] bounds].size.height - 80)];
     
-    [iv setWebImageWithUrlStr:@"http://www.k-thequeen.com/upload/image/day_20150715/20150715055840701.jpg" placeholderImageName:@"mm.jpg"];
+    [iv setWebImageWithUrlStr:@"http://www.k-thequeen.com/upload/image/day_20150715/20150715055840701.jpg"];
     
 //    iv.image = [UIImage imageNamed:@"mm.jpg"];
 //    NSURL *url = [NSURL URLWithString:@"http://localhost/yindaoye01.png"];
