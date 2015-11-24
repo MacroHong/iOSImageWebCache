@@ -22,7 +22,8 @@
 - (void)setWebImageWithUrlStr:(NSString *)urlStr
          placeholderImageName:(NSString *)imageName {
     NSURL *imageURL = [NSURL URLWithString:urlStr];
-    [self setWebImageWithUrl:imageURL placeholderImageName:imageName];
+    [self setWebImageWithUrl:imageURL
+        placeholderImageName:imageName];
 }
 
 /*!
@@ -33,7 +34,8 @@
  *  @param urlStr    NSString *: 网络图片地址
  */
 - (void)setWebImageWithUrlStr:(NSString *)urlStr {
-    [self setWebImageWithUrlStr:urlStr placeholderImageName:nil];
+    [self setWebImageWithUrlStr:urlStr
+           placeholderImageName:nil];
 }
 
 /*!
@@ -79,7 +81,9 @@
     NSData *imageData = [NSData dataWithContentsOfURL:url];
     // 通知主线程更新UI
     dispatch_async(dispatch_get_main_queue(), ^{
-        self.image = [UIImage imageWithData:imageData];
+        if (imageData) {
+            self.image = [UIImage imageWithData:imageData];
+        }
     });
 }
 
